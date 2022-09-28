@@ -1,0 +1,153 @@
+.first-row {
+    background-color: #168f8f;
+    color: #ffffff;
+}
+
+.second-row {
+    background-color: #f5f516;
+    color: #000;
+}
+
+.first-row:hover {
+    background-color: #f5f4;
+    color: #000;
+}
+
+.second-row:hover {
+    background-color: #1684;
+    color: #ffffff;
+}
+
+.drawing-container {
+    margin-top: 10px;
+    display: flex;
+}
+
+.drawing-container .phone {
+    height: 300px;
+    width: 200px;
+    border: 1px solid #000;
+    background-color: darkgray;
+    border-radius: 20%;
+    position: relative;
+    display: inline-block;
+}
+
+.drawing-container .phone .display {
+    height: 150px;
+    width: 150px;
+    border: 1px solid #000;
+    background-color: #f3dfdf;
+    border-radius: 20%;
+    position: absolute;
+    display: inline-block;
+    left: 25px;
+    top: 10px;
+}
+
+.drawing-container .display .text {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    font-size: 30px;
+    top: 50px;
+    text-align: center;
+}
+
+.drawing-container .phone .button {
+    height: 15px;
+    width: 15px;
+    border: 1px solid #000;
+    background-color: #882ab0;
+    position: absolute;
+    border-radius: 100%;
+}
+
+.drawing-container .phone .button-top {
+    top: 60%;
+}
+
+.drawing-container .phone .button-bottom {
+    top: 80%;
+}
+
+.drawing-container .phone .button-center-height {
+    top: 70%;
+}
+
+.drawing-container .phone .button-center-width {
+    left: 45%
+}
+
+.drawing-container .phone .button-left {
+    left: 25%
+}
+
+.drawing-container .phone .button-right {
+    left: 65%
+}
+
+.drawing-container2 {
+    margin-top: 20px;
+}
+
+.drawing-container2 .phone {
+    height: 300px;
+    width: 160px;
+    border: 1px solid #000;
+    background-color: darkgray;
+    border-radius: 20%;
+    padding: 0 20px;
+}
+
+.drawing-container2 .phone .display {
+    height: 150px;
+    width: 150px;
+    border: 1px solid #000;
+    background-color: #c86868;
+    border-radius: 20%;
+    transform: translate(5px, 10px);
+}
+
+.drawing-container2 .display .text {
+    height: 150px;
+    width: 150px;
+    font-size: 30px;
+    transform: translate(0px, 50px);
+    text-align: center;
+}
+
+.drawing-container2 .phone .button {
+    height: 15px;
+    width: 15px;
+    border: 1px solid #000;
+    background-color: #882ab0;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+.buttons-row.first{
+    transform: translate(15px, 25px);
+}
+
+.buttons-row.second{
+    transform: translate(15px, 35px);
+}
+
+.buttons-row.third{
+    transform: translate(15px, 45px);
+}
+
+.drawing-container2 .button-left{
+    transform: translate(10px, 10px);
+}
+
+.drawing-container2 .button-center{
+    transform: translate(35px, 10px);
+}
+
+.drawing-container2 .button-right{
+    transform: translate(60px, 10px);
+}
+
+
